@@ -2,7 +2,7 @@
 Java solutions for common algorithm and interview questions.
 
 File organization:
-* [LC: leetcode questions](Readme.md#leetcode)
+* [LC: leetcode questions](README.md#leetcode)
 
 LC
 -----
