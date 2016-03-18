@@ -7,4 +7,5 @@ File organization:
 LC
 -----
 <a name="leetcode"></a>
+* [3 Sum](src/leetcode/ThreeSum.java)
 * [3 Sum Closest](src/leetcode/ThreeSumClosest.java)
