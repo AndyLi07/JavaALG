@@ -1,23 +1,31 @@
 package leetcode;
 
+/**
+ * Given a set of distinct integers, return all possible subsets.
+ *
+ * Note: 
+ * Elements in a subset must be in non-descending order.
+ * The solution set must not contain duplicate subsets.
+ */
+
 import java.util.*;
 
 public class Subsets {
 	// recursive
-    public ArrayList<ArrayList<Integer>> subsets_recursive(int[] nums) {
-    	ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
+    public List<List<Integer>> subsets_recursive(int[] nums) {
+    	List<List<Integer>> result = new ArrayList<List<Integer>>();
     	if(nums.length == 0 || nums == null) {
     		return result;
     	}
     	Arrays.sort(nums);
-    	ArrayList<Integer> list = new ArrayList<>();
+    	List<Integer> list = new ArrayList<Integer>();
 
     	helper(result, list, nums, 0);
 
     	return result;
     }
 
-    private void helper(ArrayList<ArrayList<Integer>> result, ArrayList<Integer> list, int[] nums, int index) {
+    private void helper(List<List<Integer>> result, List<Integer> list, int[] nums, int index) {
     	result.add(new ArrayList<Integer>(list));
     	for(int i=index; i<nums.length; i++) {
     		list.add(nums[i]);
@@ -27,8 +35,8 @@ public class Subsets {
     }
 
     // non-recursive: using bit string
-    public ArrayList<ArrayList<Integer>> subsets_non_recursive(int[] nums) {
-    	ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
+    public List<List<Integer>> subsets_non_recursive(int[] nums) {
+    	List<List<Integer>> result = new ArrayList<List<Integer>>();
     	if(nums.length == 0 || nums == null) {
     		return result;
     	}
@@ -43,7 +51,7 @@ public class Subsets {
         // ..
         // 7 -> 111 -> [1,2,3]
         for(int i=0; i<(1<<n); i++) {
-        	ArrayList<Integer> subset = new ArrayList<Integer>();
+        	List<Integer> subset = new ArrayList<Integer>();
         	for(int j=0; j<n; j++) {
         		// check whether the jth digit in i's binary representation is 1
         		if((i&(1<<j)) != 0) {

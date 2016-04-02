@@ -12,7 +12,13 @@ LC
 * [3 Sum Closest](src/leetcode/ThreeSumClosest.java)
 * [4 Sum](src/leetcode/FourSum.java)
 * [Add Binary](src/leetcode/AddBinary.java)
+* [Next Permutation](src/leetcode/NextPermutation.java)
+* [Permutation Sequence](src/leetcode/PermutationSequence.java)
+* [Permutations](src/leetcode/Permutations.java)
+* [Permutations II](src/leetcode/PermutationsWithDuplicates.java)
+* [Strstr](src/leetcode/Strstr.java)
 * [Subsets](src/leetcode/Subsets.java)
+* [Subsets II](src/leetcode/SubsetsII.java)
 
 CTCI
 -----
