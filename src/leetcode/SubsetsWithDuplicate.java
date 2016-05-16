@@ -28,6 +28,8 @@ public class SubsetsWithDuplicate {
     private void subsetsHelper(List<List<Integer>> result, List<Integer> list, int[] nums, int pos) {
     	result.add(new ArrayList<Integer>(list));
     	for(int i=pos; i<nums.length; i++) {
+            // i != pos: 跳过了一个数
+            // 如果现在的和跳过的值一样，continue
     		if(i!=pos && nums[i]==nums[i-1]) {
     			continue;
     		}

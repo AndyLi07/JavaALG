@@ -25,10 +25,15 @@ public class Subsets {
     	return result;
     }
 
+    // 找到以list开头的所有subsets
     private void helper(List<List<Integer>> result, List<Integer> list, int[] nums, int index) {
-    	result.add(new ArrayList<Integer>(list));
-    	for(int i=index; i<nums.length; i++) {
+    	
+        result.add(new ArrayList<Integer>(list));
+    	
+        for(int i=index; i<nums.length; i++) {
+
     		list.add(nums[i]);
+            // only add number greater than the last one, to keep the result unique
     		helper(result, list, nums, i+1);
     		list.remove(list.size()-1);
     	}
