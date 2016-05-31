@@ -4,16 +4,28 @@
 		"selected_items":
 		[
 			[
+				"M",
+				"MAX_VALUE"
+			],
+			[
+				"fin",
+				"findMin"
+			],
+			[
+				"se",
+				"searchMatrix"
+			],
+			[
+				"b",
+				"binarysearch"
+			],
+			[
 				"ren",
 				"render_test"
 			],
 			[
 				"gene",
 				"gene_track"
-			],
-			[
-				"se",
-				"sequence_track"
 			],
 			[
 				"lin",
@@ -75,6 +87,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/ladder/DynamicProgrammingI/Triangle.java",
+			"settings":
+			{
+				"buffer_size": 4068,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -118,14 +138,53 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/andy/git/JavaALG"
+		"/Users/andy/git/JavaALG",
+		"/Users/andy/git/JavaALG/src",
+		"/Users/andy/git/JavaALG/src/ladder",
+		"/Users/andy/git/JavaALG/src/ladder/codingstyle",
+		"/Users/andy/git/JavaALG/src/ladder/DynamicProgrammingI"
 	],
 	"file_history":
 	[
+		"/Users/andy/git/JavaALG/src/ladder/binarytreeanddivideconquer/InorderSuccessorInBinarySearchTree.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarytreeanddivideconquer/BalancedBinaryTree.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarytreeanddivideconquer/BinarySearchTreeIterator.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarytreeanddivideconquer/BinaryTreeLevelOrderTraversal.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarytreeanddivideconquer/ValidateBinarySearchTree.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarytreeanddivideconquer/BinaryTreeMaximumPathSum.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarytreeanddivideconquer/LowestCommonAncestor.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarytreeanddivideconquer/BinaryTreeMaximumPathSumII.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarytreeanddivideconquer/MinimumDepthOfBinaryTree.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarytreeanddivideconquer/MaximumDepthOfBinaryTree.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarytreeanddivideconquer/BinaryTreePreorderTraversal.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarytreeanddivideconquer/TreeNode.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/FindMinimumInRotatedSortedArray.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/Search2DMatrixII.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/SearchInRotatedSortedArrayII.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/FindMinimumInRotatedSortedArrayII.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/KClosestNumbersInSortedArray.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/ClosestNumberInSortedArray.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/TotalOccurrenceOfTarget.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/SearchForARange.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/FindPeakElement.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/WoodCut.java",
+		"/Users/andy/git/JavaALG/src/WoodCut.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/Sqrt.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/FirstBadVersion.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/SearchInRotatedSortedArray.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/MinimumInRotatedSortedArray.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/SearchInBigSortedArray.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/SearchInsertPosition.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/Search2DMatrix.java",
+		"/Users/andy/git/JavaALG/src/Search2DMatrix.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/LastPositionOfTarget.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/FirstPositionOfTarget.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/ClassicBinarySearch.java",
+		"/Users/andy/git/JavaALG/src/ladder/binarysearch/ladder/binarysearch/FirstPositionOfTarget.java",
+		"/Users/andy/git/JavaALG/src/leetcode/Calculate.java",
 		"/Users/andy/git/JavaALG/algorithms.sublime-project",
 		"/Users/andy/git/JavaALG/src/ladder/codingstyle/FindStrStr.java",
 		"/Users/andy/git/JavaALG/src/FindStrStr.java",
-		"/Users/andy/git/JavaALG/src/leetcode/Calculate.java",
 		"/Users/andy/git/JavaALG/src/leetcode/test/java.java",
 		"/Users/andy/git/JavaALG/untitled.sublime-project",
 		"/Users/andy/git/JavaALG/src/Ladder/CodingStyle/FindStrStr.java",
@@ -214,46 +273,11 @@
 		"/Users/andy/Documents/CrisprCas9/andy--crispr.txt",
 		"/Users/andy/Documents/CrisprCas9/crispr/cfront/setup.py",
 		"/Users/andy/Documents/CrisprCas9/crispr/cfront/README.md",
-		"/Users/andy/Documents/CrisprCas9/crispr/cfront/README.txt",
-		"/Users/andy/Documents/CrisprCas9/crispr/document.txt",
-		"/Users/andy/Documents/CrisprCas9/crispr/README.md",
-		"/Users/andy/Documents/CrisprCas9/Doench/CFD_Scoring/mismatch_score.pkl",
-		"/Users/andy/Desktop/Doench/Result Reproduce/cfd.txt",
-		"/Users/andy/Desktop/Doench/Result Reproduce/rs2.txt",
-		"/Users/andy/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/andy/Desktop/Doench/CFD_Scoring/cfd-score-calculator.py",
-		"/Users/andy/Desktop/Doench/online result/sgrna-designs.txt",
-		"/Users/andy/Desktop/Doench/Rule_Set_2_scoring_v1/analysis/rs2_score_calculator.py",
-		"/Users/andy/Desktop/Doench/Rule_Set_2_scoring_v1/saved_models/V3_model_full.pickle",
-		"/Users/andy/Desktop/Doench/sgrna-designs.summary.txt",
-		"/Users/andy/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/Users/andy/Desktop/myScript.py",
-		"/Users/andy/Desktop/Doench/sgrna-designs.txt",
-		"/Users/andy/Desktop/Doench/input-sequences.fasta",
-		"/Users/andy/Desktop/Things to mention",
-		"/Users/andy/Desktop/Command_Line.docx",
-		"/Users/andy/git/JavaALG/src/leetcode/FourSum.java",
-		"/Users/andy/Documents/Javascript/index.html",
-		"/Users/andy/git/JavaALG/src/FourSum.java",
-		"/Users/andy/git/JavaALG/src/leetcode/ThreeSumClosest.java",
-		"/Users/andy/git/JavaALG/src/ThreeSumClosest.java",
-		"/Users/andy/git/JavaALG/ThreeSumClosest.java",
-		"/Users/andy/git/JavaALG/leetcode/ThreeSumClosest.java",
-		"/Users/andy/git/JavaALG/leetcode/leetcode/ThreeSumClosest.java",
-		"/Users/andy/Documents/Javascript/First.html",
-		"/Users/andy/Library/Application Support/Sublime Text 3/Packages/User/Chrome.sublime-build",
-		"/Users/andy/Documents/JavatarDemo/src/javatar/simple/demo/Main.java",
-		"/Users/andy/Desktop/untitled.js",
-		"/Users/andy/Library/Application Support/Sublime Text 3/Packages/User/Node.sublime-build",
-		"/Users/andy/Library/Application Support/Sublime Text 3/Packages/Javatar/Javatar.sublime-settings",
-		"/Users/andy/Desktop/Hello.java",
-		"/Users/andy/workspace/InterviewPractice/src/mainTest/PriorityQueueDemo.java",
-		"/Users/andy/Library/Application Support/Sublime Text 3/Packages/User/JavaC.sublime-build",
-		"/Users/andy/workspace/InterviewPractice/src/mainTest/ReverseWordsInString.java"
+		"/Users/andy/Documents/CrisprCas9/crispr/cfront/README.txt"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -286,8 +310,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/ladder/DynamicProgrammingI/Triangle.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4068,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4015,
+								4015
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -368,7 +421,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 190.0,
+	"side_bar_width": 243.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
